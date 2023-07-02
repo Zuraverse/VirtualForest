@@ -1,0 +1,14 @@
+.changeMapTypeContainer {
+  position: absolute;
+  bottom: 1rem;
+  left: 0.6rem;
+  z-index: 2;
+  gap: 0.8em;
+}
+.containerToggle {
+  /* z-index: 1; */
+  cursor: pointer;
+  width: 5rem;
+  height: 5rem;
+  pointer-events: all;
+}

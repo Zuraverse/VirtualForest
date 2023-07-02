@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+.social-links:hover {
+    background-color: #000000;
+}
+
+@media screen and (max-width:360px) {
+    .flexWrap {
+        flex-wrap: wrap !important;
+        gap: 20px !important;
+    }
+}
+
+.popupCrossBtn:hover i {
+    visibility: visible !important;
+    transition-delay: 0.2s;
+}
+
+img,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input {
+    user-select: none;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    color: "#242760";
+    font-size: 40px;
+}
+
+.css-10d9dml-MuiTabs-indicator {
+    display: none !important;
+}
+
+.css-lfwcke-MuiTabs-flexContainer {
+    gap: 20px;
+}
+
+.demoImg {
+    pointer-events: none;
+}
